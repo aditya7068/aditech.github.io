@@ -362,3 +362,31 @@ line-height: 1.0rem;
 .footerdiv:nth-child(2){
     text-align: left!important;
 }
+.icondiv{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icondiv a{
+    height: 50px;
+    width:50px;
+    background-color: #f5f6fa;
+    border-radius: 30px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    line-height: 70px;
+     box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+.icondiv a i{
+    transition: all 0.3 linear;
+}
+.icondiv a:hover i{
+    transform: scale(1.4);
+}
+.fa-instagram{
+    color:#e84393
+}
+.fa-facebook{
+    color: rgb(14, 11, 173)
